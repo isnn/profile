@@ -11,6 +11,8 @@ nav {
 	position: fixed;
 	width: 100% ;
 	margin: 10px;
+	box-shadow: 10px 10px 10px #ddd;
+	border-bottom: 0px solid #000
 }
 
 ul {
