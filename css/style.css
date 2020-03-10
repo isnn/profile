@@ -82,21 +82,24 @@ a {
 
 
 #gamabaridentitas {
+	margin-top: 20px;
 	width: 50%;
+	
 }
 #gamabaridentitas img {
 	border-radius: 20px;
-	width: 90%;
-	height: 90%;
+	width: 80%;
+	height: 80%;
+	margin-left: 48px;
 }
 
 .call-me {
 	padding: 12px 32px;
 	background-color: #fff;
-	color: ff7b51;
+	color: #ff7b51;
 	margin-top: 16px;
 	border-radius: 32px;
-	border : 1px solid #ffb51;
+	border : 1px solid #ff7b51;
 
 	transition: 0.3s;
 }
@@ -106,4 +109,20 @@ a {
 	background-color: #ff7b51;
 	color: white;
 	transition: 0.3s;
+}
+
+.judul-tengah{
+	text-align: center;
+}
+
+.judul-tengah h2{
+	text-align: center;
+}
+
+.footer {
+	position: fixed;
+	width: 100% ;
+	height: 30px;
+	bottom: 0;
+	background: #FFFF;
 }
