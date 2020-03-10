@@ -126,3 +126,9 @@ a {
 	bottom: 0;
 	background: #FFFF;
 }
+
+.footer p {
+	text-align: center;
+	top: 0;
+	margin: 0;
+}
