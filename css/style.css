@@ -8,10 +8,12 @@ nav {
 	/*kalo bawah atas bawah dan kiri kanan*/
 	padding: 20px 0px ;
 	height: 60px;
-	display: fixed;
+	position : fixed;
 	width: 100% ;
+	top: 0px;
+	left: 0px;
 	box-shadow: 10px 10px 10px #ddd;
-	border-bottom: 0px solid #000
+	
 }
 
 ul {
@@ -42,6 +44,10 @@ a {
 	color: black ;
 }
 
+.kosong {
+	height: 60px;
+}
+
 .section {
 	padding: 40px;
 }
@@ -61,5 +67,43 @@ a {
 }
 
 #identitas {
-	width: 50%
+	width: 50%;
+}
+
+#info_utama{
+	display: flex;
+}
+
+#identitas p{
+	margin-top: 10px;
+	color: #6f6f6f;
+	font-size: 14px;
+}
+
+
+#gamabaridentitas {
+	width: 50%;
+}
+#gamabaridentitas img {
+	border-radius: 20px;
+	width: 90%;
+	height: 90%;
+}
+
+.call-me {
+	padding: 12px 32px;
+	background-color: #fff;
+	color: ff7b51;
+	margin-top: 16px;
+	border-radius: 32px;
+	border : 1px solid #ffb51;
+
+	transition: 0.3s;
+}
+
+.call-me:hover {
+	box-shadow: 0px 10px 20px #ddd;
+	background-color: #ff7b51;
+	color: white;
+	transition: 0.3s;
 }
