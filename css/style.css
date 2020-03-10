@@ -8,9 +8,8 @@ nav {
 	/*kalo bawah atas bawah dan kiri kanan*/
 	padding: 20px 0px ;
 	height: 60px;
-	position: fixed;
+	display: fixed;
 	width: 100% ;
-	margin: 10px;
 	box-shadow: 10px 10px 10px #ddd;
 	border-bottom: 0px solid #000
 }
@@ -36,4 +35,13 @@ nav ul li{
 	position: fixed;
 	width: 60px ;
 	margin-left: 16px;
+}
+
+a {
+	text-decoration: none;
+	color: black ;
+}
+
+.section {
+	padding: 40px;
 }
