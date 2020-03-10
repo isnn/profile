@@ -1,3 +1,37 @@
 body {
 	font-family: "Open Sans";
 }
+
+nav {
+	background-color: #FFFF;
+	/*padding: atas kanan bawah kiri*/
+	/*kalo bawah atas bawah dan kiri kanan*/
+	padding: 20px 0px ;
+	height: 60px;
+	position: fixed;
+	width: 100% ;
+	margin: 10px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+	float: right;
+	margin: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-right: 30px;
+}
+
+#navbar-logo{
+	padding-left: 10px;
+	height: 60px;
+	position: fixed;
+	width: 60px ;
+	margin-left: 16px;
+}
