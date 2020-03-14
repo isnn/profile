@@ -126,7 +126,7 @@ a {
 .footer {
 	position: fixed;
 	width: 100% ;
-	height: 30px;
+	height: 40px;
 	bottom: 0;
 	background: #FFFF;
 }
@@ -137,9 +137,21 @@ a {
 	margin: 0;
 }
 
+
+.kosongfoot{
+	float: right;
+	width: 30px;
+}
+
+.footer img {
+	height: 30px;
+	float: right;
+	margin-right: 20px;
+}
+
 .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   margin: 80px;
   margin-top: 8%;
