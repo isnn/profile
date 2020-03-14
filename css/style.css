@@ -92,6 +92,7 @@ a {
 	width: 80%;
 	height: 80%;
 	margin-left: 48px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .call-me {
@@ -142,6 +143,7 @@ a {
   transition: 0.3s;
   margin: 80px;
   margin-top: 8%;
+  border-radius: 15px;	
   
 
 }
@@ -151,6 +153,10 @@ a {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.card img{
+	width: 250px;
+	border-radius: 15px 15px 0 0;
+}
 /* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
